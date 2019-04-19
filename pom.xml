@@ -6,7 +6,47 @@
 
     <groupId>java-test</groupId>
     <artifactId>java-concurrency-programming</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>1-chapter-one</module>
+        <module>2-chapter-two</module>
+        <module>3-chapter-third</module>
+        <module>4-chapter-four</module>
+        <module>5-chapter-five</module>
+        <module>6-chapter-six</module>
+        <module>7-chapter-vii</module>
+        <module>8-chapter-eight</module>
+        <module>9-chapter-nine</module>
+        <module>10-chapter-ten</module>
+        <module>11-chapter-action</module>
+    </modules>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.3.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.56</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>2.0.2.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 
 </project>
